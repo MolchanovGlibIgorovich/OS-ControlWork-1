@@ -75,15 +75,22 @@ end note
 <p align="center">
   <img width="425" height="599" alt="image" src="https://github.com/user-attachments/assets/b743f24f-51d4-4d46-98cf-9973defa5be4" />
   <br>
-  <em>Рисунок 1 — UML-діаграма концептуальних класів предметної області «Космічна станція»</em>
+  <em>Рисунок 1 - UML-діаграма концептуальних класів предметної області «Космічна станція»</em>
 </p>
 
 Інструкція з перевірки аліасів:
 ---
-```
+```plantuml
 source domain_alias.sh
 mount_module Test_Module
 enter_module Test_Module
 assemble_device sensor.conf
 inspect_module
 ```
+
+Приклад виконання перевірки:
+<p align="center">
+  <img width="656" height="443" alt="image" src="https://github.com/user-attachments/assets/6f3fc7b9-f9c4-4ce6-b894-58bc699e16a8" />
+  <br>
+  <em>Рисунок 2 - Демонстрація успішного виконання та перевірки псевдонімів у терміналі</em>
+</p>
