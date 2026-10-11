@@ -80,3 +80,10 @@ end note
 
 Інструкція з перевірки аліасів:
 ---
+```
+source domain_alias.sh
+mount_module Test_Module
+enter_module Test_Module
+assemble_device sensor.conf
+inspect_module
+```
